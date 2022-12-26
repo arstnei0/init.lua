@@ -95,4 +95,6 @@ return require('packer').startup(function(use)
 
     -- Colorscheme
     use 'navarasu/onedark.nvim'
+
+    use 'wakatime/vim-wakatime'
 end)
