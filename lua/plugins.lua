@@ -7,6 +7,8 @@ return require('packer').startup(function(use)
     -- Packer can manage itself
     use 'wbthomason/packer.nvim'
 
+    use 'nvim-tree/nvim-web-devicons'
+
     use {
         'nvim-telescope/telescope.nvim', tag = '0.1.0',
         -- or                            , branch = '0.1.x',
@@ -97,4 +99,11 @@ return require('packer').startup(function(use)
     use 'navarasu/onedark.nvim'
 
     use 'wakatime/vim-wakatime'
+
+    use 'leafgarland/typescript-vim'
+    use 'peitalin/vim-jsx-typescript'
+
+    use 'zihan-ch/zihan.nvim'
+
+    use 'windwp/nvim-ts-autotag'
 end)

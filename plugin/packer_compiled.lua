@@ -176,6 +176,11 @@ _G.packer_plugins = {
     path = "/Users/zionchen/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
+  ["nvim-ts-autotag"] = {
+    loaded = true,
+    path = "/Users/zionchen/.local/share/nvim/site/pack/packer/start/nvim-ts-autotag",
+    url = "https://github.com/windwp/nvim-ts-autotag"
+  },
   ["nvim-web-devicons"] = {
     loaded = true,
     path = "/Users/zionchen/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
@@ -206,6 +211,11 @@ _G.packer_plugins = {
     path = "/Users/zionchen/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
+  ["typescript-vim"] = {
+    loaded = true,
+    path = "/Users/zionchen/.local/share/nvim/site/pack/packer/start/typescript-vim",
+    url = "https://github.com/leafgarland/typescript-vim"
+  },
   undotree = {
     loaded = true,
     path = "/Users/zionchen/.local/share/nvim/site/pack/packer/start/undotree",
@@ -220,6 +230,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/zionchen/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
+  },
+  ["vim-jsx-typescript"] = {
+    loaded = true,
+    path = "/Users/zionchen/.local/share/nvim/site/pack/packer/start/vim-jsx-typescript",
+    url = "https://github.com/peitalin/vim-jsx-typescript"
   },
   ["vim-prettier"] = {
     loaded = true,
@@ -240,6 +255,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/zionchen/.local/share/nvim/site/pack/packer/start/zen-mode.nvim",
     url = "https://github.com/folke/zen-mode.nvim"
+  },
+  ["zihan.nvim"] = {
+    loaded = true,
+    path = "/Users/zionchen/.local/share/nvim/site/pack/packer/start/zihan.nvim",
+    url = "https://github.com/zihan-ch/zihan.nvim"
   }
 }
 
