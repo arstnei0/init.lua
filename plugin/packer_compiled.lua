@@ -85,6 +85,11 @@ _G.packer_plugins = {
     path = "/Users/zionchen/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["bufferline.nvim"] = {
+    loaded = true,
+    path = "/Users/zionchen/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
+    url = "https://github.com/akinsho/bufferline.nvim"
+  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/Users/zionchen/.local/share/nvim/site/pack/packer/start/cmp-buffer",
@@ -156,6 +161,11 @@ _G.packer_plugins = {
     path = "/Users/zionchen/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
   },
+  ["nvim-cursorline"] = {
+    loaded = true,
+    path = "/Users/zionchen/.local/share/nvim/site/pack/packer/start/nvim-cursorline",
+    url = "https://github.com/yamatsum/nvim-cursorline"
+  },
   ["nvim-lspconfig"] = {
     loaded = true,
     path = "/Users/zionchen/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
@@ -165,6 +175,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/zionchen/.local/share/nvim/site/pack/packer/start/nvim-notify",
     url = "https://github.com/rcarriga/nvim-notify"
+  },
+  ["nvim-transparent"] = {
+    loaded = true,
+    path = "/Users/zionchen/.local/share/nvim/site/pack/packer/start/nvim-transparent",
+    url = "https://github.com/xiyaowong/nvim-transparent"
   },
   ["nvim-tree.lua"] = {
     loaded = true,
@@ -186,11 +201,6 @@ _G.packer_plugins = {
     path = "/Users/zionchen/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/nvim-tree/nvim-web-devicons"
   },
-  ["onedark.nvim"] = {
-    loaded = true,
-    path = "/Users/zionchen/.local/share/nvim/site/pack/packer/start/onedark.nvim",
-    url = "https://github.com/navarasu/onedark.nvim"
-  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/Users/zionchen/.local/share/nvim/site/pack/packer/start/packer.nvim",
@@ -200,6 +210,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/zionchen/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
+  },
+  ["rose-pine"] = {
+    loaded = true,
+    path = "/Users/zionchen/.local/share/nvim/site/pack/packer/start/rose-pine",
+    url = "https://github.com/rose-pine/neovim"
   },
   sniprun = {
     loaded = true,
@@ -220,6 +235,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/zionchen/.local/share/nvim/site/pack/packer/start/undotree",
     url = "https://github.com/mbbill/undotree"
+  },
+  vim = {
+    loaded = true,
+    path = "/Users/zionchen/.local/share/nvim/site/pack/packer/start/vim",
+    url = "https://github.com/dracula/vim"
   },
   ["vim-be-good"] = {
     loaded = true,

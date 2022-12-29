@@ -19,3 +19,9 @@ vim.keymap.set("n", "<leader>npm", ':Pnpm ')
 vim.keymap.set('n', "<leader>pinit", ":PrettierInit<CR>")
 vim.keymap.set('n', '<leader>pa', ':PrettierAll<CR>')
 vim.keymap.set('n', '<leader>gh', ':!gh ')
+
+vim.keymap.set('n', '\\\\', 'maHmbgg=G`bzt`a')
+
+vim.keymap.set('n', 'gh', ':bn<CR>')
+vim.keymap.set('n', 'gf', ':bp<CR>')
+vim.keymap.set('n', 'gx', ':bd<CR>')

@@ -96,7 +96,12 @@ return require('packer').startup(function(use)
     }
 
     -- Colorscheme
-    use 'navarasu/onedark.nvim'
+    use 'dracula/vim'
+    use({
+        'rose-pine/neovim',
+        as = 'rose-pine',
+    })
+    use 'xiyaowong/nvim-transparent'
 
     use 'wakatime/vim-wakatime'
 
@@ -106,4 +111,8 @@ return require('packer').startup(function(use)
     use 'zihan-ch/zihan.nvim'
 
     use 'windwp/nvim-ts-autotag'
+
+    use 'yamatsum/nvim-cursorline'
+
+    use {'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons'}
 end)
