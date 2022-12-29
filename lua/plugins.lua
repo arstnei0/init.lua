@@ -112,7 +112,7 @@ return require('packer').startup(function(use)
 
     use 'windwp/nvim-ts-autotag'
 
-    use 'yamatsum/nvim-cursorline'
-
     use {'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons'}
+
+    use 'leafgarland/typescript-vim'
 end)
