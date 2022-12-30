@@ -136,4 +136,5 @@ return require('packer').startup(function(use)
     }
 
     use 'timonv/vim-cargo'
+    use 'rust-lang/rust.vim'
 end)
