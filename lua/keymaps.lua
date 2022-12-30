@@ -15,6 +15,10 @@ vim.keymap.set('n', '<leader>ct', ':NvimTreeCollapse<CR>')
 vim.keymap.set('n', '<leader>r', ':SnipRun<CR>')
 
 vim.keymap.set("n", "<leader>npm", ':Pnpm ')
+vim.keymap.set('n', '<leader>cgr', ':CargoRun<CR>')
+vim.keymap.set('n', '<leader>cgb', ':CargoBuild<CR>')
+vim.keymap.set('n', '<leader>cgt', ':CargoTest<CR>')
+vim.keymap.set('n', '<leader>cgu', ':CargoUpdate<CR>')
 
 vim.keymap.set('n', "<leader>pinit", ":PrettierInit<CR>")
 vim.keymap.set('n', '<leader>pa', ':PrettierAll<CR>')

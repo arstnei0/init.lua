@@ -88,7 +88,17 @@ return require('packer').startup(function(use)
 
     use {
         "windwp/nvim-autopairs",
-        config = function() require("nvim-autopairs").setup {} end
+        config = function() require("nvim-autopairs").setup {
+            filetypes = {
+                'html', 'javascript', 'typescript', 'javascriptreact', 'typescriptreact', 'svelte', 'vue', 'tsx', 'jsx', 'rescript',
+                'xml',
+                'php',
+                'markdown',
+                'glimmer','handlebars','hbs',
+                'astro-component',
+                'astro'
+            }
+        } end
     }
 
     use {
@@ -115,4 +125,15 @@ return require('packer').startup(function(use)
     use {'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons'}
 
     use 'tpope/vim-obsession'
+
+    use {
+        "folke/trouble.nvim",
+        requires = "kyazdani42/nvim-web-devicons",
+        config = function()
+            require("trouble").setup {
+            }
+        end
+    }
+
+    use 'timonv/vim-cargo'
 end)
