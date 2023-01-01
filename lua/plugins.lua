@@ -3,7 +3,7 @@
 -- Only required if you have packer configured as `opt`
 vim.cmd [[packadd packer.nvim]]
 
-return require('packer').startup(function(use)
+require('packer').startup(function(use)
     -- Packer can manage itself
     use 'wbthomason/packer.nvim'
 
@@ -111,6 +111,8 @@ return require('packer').startup(function(use)
         'rose-pine/neovim',
         as = 'rose-pine',
     })
+    use 'EdenEast/nightfox.nvim'
+    use "rebelot/kanagawa.nvim"
     use 'xiyaowong/nvim-transparent'
 
     use 'wakatime/vim-wakatime'
@@ -122,7 +124,7 @@ return require('packer').startup(function(use)
 
     use 'windwp/nvim-ts-autotag'
 
-    use {'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons'}
+    use 'nanozuki/tabby.nvim'
 
     use 'tpope/vim-obsession'
 

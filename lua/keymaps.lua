@@ -8,8 +8,8 @@ vim.keymap.set('n', '<leader>q', ':qa<CR>')
 vim.keymap.set('n', '<leader>nh', ':noh<CR>')
 
 vim.keymap.set('n', '<C-t>', ":NvimTreeToggle<CR>")
-vim.keymap.set('n', '<leader>t', ':NvimTreeFocus<CR>')
-vim.keymap.set('n', '<leader>ct', ':NvimTreeCollapse<CR>')
+vim.keymap.set('n', '<leader>n', ':NvimTreeFocus<CR>', { nowait = true })
+vim.keymap.set('n', '<leader>cn', ':NvimTreeCollapse<CR>')
 
 vim.keymap.set('n', '<leader>r', ':SnipRun<CR>')
 
@@ -25,9 +25,9 @@ vim.keymap.set('n', '<leader>github', ':!gh ')
 
 vim.keymap.set('n', '\\\\', 'maHmbgg=G`bzt`a')
 
-vim.keymap.set('n', 'gh', ':bn<CR>')
-vim.keymap.set('n', 'gf', ':bp<CR>')
-vim.keymap.set('n', 'gx', ':bd<CR>')
+-- vim.keymap.set('n', 'gh', ':tabn<CR>')
+-- vim.keymap.set('n', 'gf', ':tabp<CR>')
+-- vim.keymap.set('n', 'gx', ':tabclose<CR>')
 
 local quickfix = require('quickfix')
 vim.keymap.set('n', '<leader>qf', quickfix)
