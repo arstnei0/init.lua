@@ -113,6 +113,7 @@ require('packer').startup(function(use)
     })
     use 'EdenEast/nightfox.nvim'
     use "rebelot/kanagawa.nvim"
+    use { "catppuccin/nvim", as = "catppuccin" }
     use 'xiyaowong/nvim-transparent'
 
     use 'wakatime/vim-wakatime'
@@ -139,4 +140,6 @@ require('packer').startup(function(use)
 
     use 'timonv/vim-cargo'
     use 'rust-lang/rust.vim'
+
+    use 'iamcco/markdown-preview.nvim'
 end)

@@ -11,7 +11,7 @@ vim.keymap.set('n', '<C-t>', ":NvimTreeToggle<CR>")
 vim.keymap.set('n', '<leader>n', ':NvimTreeFocus<CR>', { nowait = true })
 vim.keymap.set('n', '<leader>cn', ':NvimTreeCollapse<CR>')
 
-vim.keymap.set('n', '<leader>r', ':SnipRun<CR>')
+vim.keymap.set('n', '<leader>sr', ':SnipRun<CR>')
 
 vim.keymap.set("n", "<leader>npm", ':Pnpm ')
 vim.keymap.set('n', '<leader>cgr', ':CargoRun<CR>')
@@ -41,3 +41,13 @@ vim.keymap.set('n', '<leader>p', function()
     if (vim.bo.filetype == 'rust') then vim.cmd('RustFmt')
     else vim.cmd('Prettier') end
 end, { nowait = true })
+
+vim.keymap.set('n', '<leader>mp', ':MarkdownPreview<CR>')
+vim.keymap.set('n', '<leader>mps', ':MarkdownPreviewStop<CR>')
+
+vim.keymap.set("v", "<leader>c", "\"*y")
+vim.keymap.set("n", "<leader>fc", "ggVG\"*y")
+
+vim.keymap.set("n", "M", "gM")
+vim.keymap.set("n", "<leader>l", "5w")
+vim.keymap.set("n", "<leader>h", "5b")
